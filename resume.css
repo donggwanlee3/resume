@@ -1,0 +1,38 @@
+ @font-face {
+ font-family: "sanspro";
+ src: url("light2.otf");
+ font-weight: bold;
+ }
+
+@font-face {
+ font-family: "sanspro";
+ src: url("light.otf");
+}
+
+
+body {	border: thin solid black;
+	font-size:15px;
+	font-family: sanspro, sans-serif;
+	font-weight:normal; 
+	margin:20px 100px 30px 100px;
+	width: 70%;
+	padding: 30px;
+	line-height:1em;
+}
+h2{font-size:100%; line-height:1em;}
+#headline {
+	text-align:center;
+	line-height:1em;
+	   }
+
+#title { font-size:210%;}
+#key_word{text-align:center; font-size:120%;}
+ul{list-style-type: circle}
+#main_body{line-height:1em}
+.date{
+float: right;
+}
+#all_content{ 
+width: 800ox;
+margin-left: auto;
+margin-right: auto;}
